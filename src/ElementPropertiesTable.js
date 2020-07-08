@@ -133,8 +133,7 @@ const TableBody = (props) => {
                     onMouseEnter={element => onMouseOver(element)}
                     onMouseOut={element => onMouseOut(element)}>{element.atomicMass}</td>
 
-                <Modal aria-labelledby="contained-modal-title-vcenter"
-                    centered show={openId === element.atomicNumber} onHide={hideModal}>
+                <Modal centered show={openId === element.atomicNumber} onHide={hideModal}>
                     <Modal.Header closeButton className="border-0">
                     </Modal.Header>
                     <Modal.Body>
